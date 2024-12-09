@@ -36,7 +36,7 @@ const Nav: React.FC = () => {
     <span>|</span>
     <Link href={"/"}>Join Us</Link>
     <span>|</span>
-    <Link href={"/"}>Sign in</Link>
+    <Link href={"/login"}>Sign in</Link>
   </div>
 
 </div>
