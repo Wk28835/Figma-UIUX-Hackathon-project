@@ -29,7 +29,8 @@ const hero2: React.FC = () => {
 
           <Image
           alt="image"
-          style={{width:"1344px",height:"700px"}}
+          width={1344}
+          height={700}
           src="/boy6.png"/>
 
     <div className="flight"
