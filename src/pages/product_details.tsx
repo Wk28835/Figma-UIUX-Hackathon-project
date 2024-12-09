@@ -26,7 +26,7 @@ const product_details: React.FC = () => {
           PLT.AF.ORM
         </h1>
         <p style={{width:"374.92px",fontSize:"15px",height:"252px",top:"255px", position:"absolute",lineHeight:"28px"}}>
-        Turn style on its head with this crafted take on the Air Jordan 1 Mid. Its "inside out"-inspired construction, including unique layering and exposed foam accents, ups the ante on this timeless Jordan Brand silhouette. Details like the deco stitching on the Swoosh add coveted appeal, while the unexpected shading, rich mixture of materials and aged midsole aesthetic give this release an artisan finish.
+        Turn style on its head with this crafted take on the Air Jordan 1 Mid. Its inside out inspired construction including unique layering and exposed foam accents ups the ante on this timeless Jordan Brand silhouette. Details like the deco stitching on the Swoosh add coveted appeal while the unexpected shading rich mixture of materials and aged midsole aesthetic give this release an artisan finish.
         </p>
 
         <p style={{width:"229px",fontSize:"36px",height:"34px",top:"535px", position:"absolute",lineHeight:"28px"}}>
