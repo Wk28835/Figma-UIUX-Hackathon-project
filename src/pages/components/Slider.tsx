@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-
+import Link from "next/link";
 const slider: React.FC = () => {
 
   
@@ -89,9 +89,10 @@ const slider: React.FC = () => {
 
     <div
     style={{width:"441.36px",height:"510.36px"}}>
+      <Link href={"/product_details"}>
       <Image alt="image" width={441.36} height={441.36}
       src="/shoe1.png"/>
-
+      </Link>
 
             <div className="h-8 flex bg-white"
             style={{width:"425.36px", top:"462.36px"}}>
@@ -108,9 +109,10 @@ const slider: React.FC = () => {
 
     <div className="ml-12"
     style={{width:"441.36px",height:"510.36px"}}>
+      <Link href={"/product_details"}>
       <Image alt="image" width={441.36} height={441.36}
       src="/shoe1.png"/>
-
+      </Link>
 
             <div className="h-8 flex bg-white"
             style={{width:"425.36px", top:"462.36px"}}>
@@ -127,9 +129,10 @@ const slider: React.FC = () => {
 
     <div className="ml-12"
     style={{width:"441.36px",height:"510.36px"}}>
+      <Link href={"/product_details"}>
       <Image alt="image" width={441.36} height={441.36}
       src="/shoe2.png"/>
-
+    </Link>
 
             <div className="h-8 flex bg-white"
             style={{width:"425.36px", top:"462.36px"}}>
@@ -164,8 +167,10 @@ const slider: React.FC = () => {
   >Featured</h1>
 
 <div className="image">
+      <Link href={"/product_details"}>
     <Image alt="image" width={1344} height={700}
     src="/boy.jpeg" />
+    </Link>
 </div>
 
 <div style={{width:"1008px", height:"177px", marginLeft:"168px",marginTop:"748"}} className="nike air mt-14">
