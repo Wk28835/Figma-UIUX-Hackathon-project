@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
 
  
   return (
-    <div style={{top:"1450px",position:"relative"}}>
+    <div>
 
      
         <div className="main div bg-black text-white"
