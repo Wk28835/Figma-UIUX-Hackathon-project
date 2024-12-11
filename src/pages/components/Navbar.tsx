@@ -32,7 +32,7 @@ const Nav: React.FC = () => {
   <div className="flex gap-4 ml-auto text-black text-xs font-medium">
     <Link href={"/"}>Find a Store</Link>
     <span>|</span>
-    <Link href={"/"}>Help</Link>
+    <Link href={"/contact"}>Help</Link>
     <span>|</span>
     <Link href={"/joinus"}>Join Us</Link>
     <span>|</span>
