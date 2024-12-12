@@ -182,7 +182,7 @@ const slider: React.FC = () => {
     </p>
 
     <div className="text-white text-center" style={{paddingBottom:"7.5px", paddingTop:"7.5px", paddingLeft:"22.5px", paddingRight:"23.92px"}} >
-      <button className="bg-black"
+      <button onClick={() => (window.location.href = "/Product")} className="bg-black"
       style={{paddingTop:"7.5px", paddingRight:"22.08px", paddingBottom:"7.5px", paddingLeft:"21.5px", borderRadius:"30px"}}>Find Your Shoe</button>
       
     </div>
