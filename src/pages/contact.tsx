@@ -6,7 +6,7 @@ const contact: React.FC = () => {
   
  
     return (
-      <div>
+      <div className="pb-44">
         
         <section className="main section1"
         style={{width:"1428px",height:"1230px",top:"144px",left:"6px",position:"absolute"}}>
