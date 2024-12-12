@@ -9,7 +9,7 @@ const contact: React.FC = () => {
       <div className="pb-44">
         
         <section className="main section1"
-        style={{width:"1428px",height:"1230px",top:"144px",left:"6px",position:"absolute"}}>
+        style={{width:"1428px",height:"1230px",top:"60px",left:"6px",position:"relative"}}>
 
           <div className="get help"
           style={{width:"1440px",height:"132px",left:"-6px",position:"absolute"}}>
@@ -260,7 +260,7 @@ If you enter your PAN information at checkout, you&#39;ll be able to pay for you
             </div>
 
             <div className="email div"
-            style={{width:"265.25px",height:"158px",top:"480px",position:"absolute"}}>
+            style={{width:"265.25px",height:"158px",top:"480px",position:"relative"}}>
               <Image width={64} height={64} alt="image"
             style={{left:"110.63px",top:"13px",position:"absolute"}}
             src="/mail.png"
@@ -284,7 +284,7 @@ If you enter your PAN information at checkout, you&#39;ll be able to pay for you
             </div>
 
             <div className="location div"
-            style={{width:"265.25px",height:"158px",top:"678px",position:"absolute"}}>
+            style={{width:"265.25px",height:"158px",top:"510px",position:"absolute"}}>
               <Image width={64} height={64} alt="image"
             style={{left:"115.63px",top:"13px",position:"absolute"}}
             src="/location.png"
