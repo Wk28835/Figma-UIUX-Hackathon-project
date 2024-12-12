@@ -78,13 +78,13 @@ const login: React.FC = () => {
           >SIGN IN</button>
         </div>
 
-        <div className=""
+         <div 
         style={{width:"324px",height:"24px", top:"40px",position:"relative"}}>
 
-          <p
+          <p className="flex text-nowrap"
           style={{width:"129.61px",height:"14px", top:"5.5px",left:"120.58px",textAlign:"center",
             position:"relative",fontSize:"12px",lineHeight:"14px"}}
-          >Not a Member? Join Us.</p>
+          >Not a Member?<button onClick={() => window.location.href = "/joinus"}  className="underline pr-1">Join Us.</button>.</p>
         </div>
 
 
