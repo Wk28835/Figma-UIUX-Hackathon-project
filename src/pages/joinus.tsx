@@ -131,7 +131,7 @@ const Joinus: React.FC = () => {
           <p className="text-gray-400"
           style={{width:"129.61px",height:"14px", top:"5.5px",left:"112.58px",textAlign:"center",
             position:"relative",fontSize:"12px",lineHeight:"14px"}}
-          >Already a Member?<button className="px-1 underline text-black">Sign In.</button></p>
+          >Already a Member?<button onClick={() => window.location.href = "/login"} className="px-1 underline text-black">Sign In.</button></p>
         </div>
 
 
