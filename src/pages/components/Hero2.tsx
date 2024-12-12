@@ -34,12 +34,12 @@ const hero2: React.FC = () => {
           
           src="/boy6.png"/>
 
-    <div className="flight"
+    <div className="flight text-center mt-12  mx-auto"
         style={{width:"1008px",height:"177px", top:"748px",left:"168px",position:"revert"}}>
-        <h1 className="text-black text-nowrap"
-        style={{width:"512px",height:"60px",left:"247.97px",position:"revert",fontSize:"52px",lineHeight:"60px,",
-          alignItems:"center" }}> FLIGHT ESSENTIALS</h1>
-      <p style={{width:"531px", height:"24px",top:"84px",left:"239.05px",fontSize:"15px",lineHeight:"24px",position:"revert"}}
+        <h1 className="text-black text-nowrap text-center flex mx-auto"
+        style={{width:"512px",height:"60px",left:"247.97px",position:"revert",fontSize:"52px",lineHeight:"60px"
+           }}> FLIGHT ESSENTIALS</h1>
+      <p className="text-center flex mx-auto" style={{width:"531px", height:"24px",top:"84px",left:"239.05px",fontSize:"15px",lineHeight:"24px",position:"revert"}}
       >Your built-to-last, all-week wears—but with style only Jordan Brand can deliver.</p>
         
 
