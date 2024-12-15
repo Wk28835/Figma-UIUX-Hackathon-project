@@ -251,7 +251,7 @@ const cart: React.FC = () => {
            style={{width:"334.67px",height:"60px",top:"-500px",left:"8px",borderRadius:"30px",position:"relative",
                 }}>
             
-            <button className="text-center"
+            <button className="text-center" onClick={() => window.location.href = "/checkout"}
             style={{width:"133px",height:"24px",fontWeight:"500",fontSize:"15px",lineHeight:"24px",
               
             }}>Member Checkout</button>
