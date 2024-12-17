@@ -42,7 +42,7 @@ const product_details: React.FC = () => {
             src="/cart1.png"
             />
 
-           <button className="text-white my-1 " 
+           <button className="text-white my-1 " onClick={() => window.location.href = "/cart"} 
             style={{textAlign:"center",width:"99px",height:"29px",fontSize:"16px",lineHeight:"24px",fontWeight:"500"}}
           >
             Add to Cart
