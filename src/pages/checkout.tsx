@@ -1,6 +1,6 @@
 
 import { ShoppingBag } from "lucide-react";
-
+import Image from "next/image";
 
 const checkout: React.FC = () => {
 
@@ -9,7 +9,7 @@ const checkout: React.FC = () => {
     return (
       <div>
         
-        <div className="parent_div"
+        <div className="parent_div flex"
         style={{width:"880px",height:"2376px",left:"289px",position:"relative"}}>
 
           <section
@@ -20,7 +20,7 @@ const checkout: React.FC = () => {
             How would you like to get your order?
             </h1>
 
-            <p
+            <p className="text-gray-500"
              style={{width:"437.61px",height:"192px",top:"80px",position:"relative",
               fontWeight:"400",fontSize:"15px",lineHeight:"24px" }}>
                   Customs regulation for India require a copy of the <br/>
@@ -59,19 +59,19 @@ const checkout: React.FC = () => {
                   Enter your name and address:
               </p>
 
-              <input className="border"
+              <input className="border placeholder:text-black"
               style={{width:"440px",height:"56px",top:"25px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="First Name"
               />
 
-          <input className="border"
+          <input className="border placeholder:text-black"
               style={{width:"440px",height:"56px",top:"45px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="Last Name"
               />
 
-        <input className="border"
+        <input className="border placeholder:text-black"
               style={{width:"440px",height:"56px",top:"65px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="Adress Line 1"
@@ -82,39 +82,39 @@ const checkout: React.FC = () => {
               We do not ship to P.O. boxes
             </p>
 
-        <input className="border"
+        <input className="border placeholder:text-black"
               style={{width:"440px",height:"56px",top:"65px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="Address Line 2"
               />
 
-        <input className="border"
+        <input className="border placeholder:text-black"
               style={{width:"440px",height:"56px",top:"85px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="Address Line 3"
               />
 
-      <input className="border"
+      <input className="border placeholder:text-black"
               style={{width:"211.19px",height:"56px",top:"95px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="Postal Code"
               /> 
 
-          <input className="border"
+          <input className="border placeholder:text-black"
               style={{width:"211.19px",height:"56px",top:"95px",left:"16.81px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="Locality"
               /> 
 
           
-              <select className="border"
+              <select className="border placeholder:text-gray-600"
             style={{width:"211.19px",height:"56px",top:"105px",position:"relative", borderRadius:"4px",
               paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}>Pakistan
             <option>State/Territory</option>
             </select> 
               
 
-          <input className="border"
+          <input className="border placeholder:text-black"
               style={{width:"211.19px",height:"56px",top:"105px",left:"16.81px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="India"
@@ -133,7 +133,7 @@ const checkout: React.FC = () => {
             Save this address to my profile
             </p>
 
-            <input type="checkbox"
+            <input type="checkbox placeholder:text-black"
            style={{width:"18px",height:"18px",top:"148px",left:"2.81px",position:"relative", borderRadius:"4px",
             }}>
 
@@ -158,7 +158,7 @@ const checkout: React.FC = () => {
                  What&#39;s your contact information?
               </h1>
 
-              <input className="border"
+              <input className="border placeholder:text-black"
               style={{width:"440px",height:"56px",top:"65px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="Email"
@@ -170,7 +170,7 @@ const checkout: React.FC = () => {
               A confirmation email will be sent after checkout.
             </p> 
 
-            <input className="border"
+            <input className="border placeholder:text-black"
               style={{width:"440px",height:"56px",top:"65px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="Phone Number"
@@ -188,7 +188,7 @@ const checkout: React.FC = () => {
                  What&#39;s your PAN?
               </h1> 
 
-              <input className="border"
+              <input className="border placeholder:text-black"
               style={{width:"440px",height:"56px",top:"125px",position:"relative", borderRadius:"4px",
                 paddingTop:"16px",paddingBottom:"16px",paddingRight:"16px",paddingLeft:"16px"}}
             placeholder="Pan"
@@ -200,7 +200,7 @@ const checkout: React.FC = () => {
              Enter your PAN to enable payment with UPI, Net Banking or local<br/> card methods
             </p>
 
-            <input type="checkbox"
+            <input type="checkbox placeholder:text-black"
            style={{width:"18px",height:"18px",top:"168px",left:"2.81px",position:"relative", borderRadius:"4px",
             }}>
 
@@ -220,7 +220,7 @@ const checkout: React.FC = () => {
             </input>
                       
 
-            <p className=""
+            <p className="text-gray-600"
             style={{width:"404.5px",height:"42px",top:"155px",left:"32px",position:"relative",
               fontSize:"12px",fontWeight:"400",lineHeight:"14px"}}>
             I have read and consent to eShopWorld processing my information in accordance with the Privacy Statement and Cookie Policy. eShopWorld<br/> is a trusted Nike partner.
@@ -242,13 +242,13 @@ const checkout: React.FC = () => {
             
               >Delivery</h1>
 
-    <h1 className="border"
+    <h1 className="border text-gray-600"
               style={{width:"440px",height:"57px",top:"175px",position:"relative", borderBottom:"1px",
                 paddingTop:"16px",paddingBottom:"32px",paddingLeft:"16px"}}
             
               >Shipping</h1> 
 
-        <h1 className="border"
+        <h1 className="border text-gray-600"
               style={{width:"440px",height:"57px",top:"185px",position:"relative", borderBottom:"1px",
                 paddingTop:"16px",paddingBottom:"32px",paddingLeft:"16px"}}
             
@@ -256,7 +256,7 @@ const checkout: React.FC = () => {
 
             </div>
 
-            <h1 className="border"
+            <h1 className="border text-gray-600"
               style={{width:"440px",height:"57px",top:"195px",position:"relative", borderBottom:"1px",
                 paddingTop:"16px",paddingBottom:"32px",paddingLeft:"12px"}}
             
@@ -265,6 +265,152 @@ const checkout: React.FC = () => {
 
 
             </div>      
+
+          </section>
+
+          <section
+          style={{width:"320px",height:"721px",left:"130px",position:"relative",top:"8px"}}>
+
+            <h1 className="font-medium"
+            style={{width:"160.37px",height:"26px",top:"67px",fontSize:"21px",lineHeight:"24px",
+            position:"relative"}}>Order Summary</h1>
+
+            <p className="text-gray-600"
+            style={{width:"60px",height:"16px",left:"3px",position:"relative",fontSize:"15px",top:"80px",bottom:"9px",
+            lineHeight:"16px"}}>
+              SubTotal
+
+            </p>
+
+            <p className="text-gray-500 text-nowrap"
+            style={{width:"60px",height:"16px",left:"250px",position:"relative",fontSize:"15px",top:"64px",bottom:"9px",
+            lineHeight:"16px"}}>
+              ₹ 20 890.00
+
+            </p>
+
+
+            <p className="text-gray-500"
+            style={{width:"60px",height:"16px",left:"3px",position:"relative",fontSize:"15px",top:"90px",bottom:"9px",
+            lineHeight:"16px"}}>
+              Delivery/Shipping
+
+            </p>
+
+            <p className="text-gray-600 text-nowrap"
+            style={{width:"60px",height:"16px",left:"300px",position:"relative",fontSize:"15px",top:"74px",bottom:"9px",
+            lineHeight:"16px"}}>
+              Free
+
+            </p>
+
+            <p 
+            style={{width:"60px",height:"16px",left:"3px",position:"relative",fontSize:"15px",borderTop:"1px",
+              top:"100px",bottom:"9px",
+            lineHeight:"16px"}}>
+              Total
+
+            </p>
+
+            <p className=" text-nowrap "
+            style={{width:"60px",height:"16px",left:"250px",position:"relative",fontSize:"15px",borderTopWidth:"1px",
+              borderBottomWidth:"1px",top:"84px",bottom:"9px",
+            lineHeight:"16px"}}>
+              ₹ 20 890.00
+
+            </p>
+
+
+            <p className="text-nowrap border-gray-600"
+            style={{width:"60px",height:"16px",left:"3px",position:"relative",fontSize:"9px",top:"110px",bottom:"9px", lineHeight:"16px"}}>
+              
+              (The total reflects the price of your order, including all duties and taxes)
+            </p>
+
+
+            <div
+            style={{width:"320px",height:"474px",left:"3px",top:"130px",position:"relative"}}>
+
+              <h1 className="font-bold"
+              style={{width:"249px",height:"24px",left:"3px",position:"relative",
+                fontSize:"15px",lineHeight:"24px"}}>
+                  Arrives Mon, 27 Mar - Wed, 12 Apr
+              </h1>
+
+              <Image className="top-2 relative"
+               width={208} height={208} alt="image"
+              src="/boy8.jpeg"/>
+
+              <h1 className="font-normal"
+               style={{width:"85.53px",height:"120px",top:"-203px",left:"220px",position:"relative",
+                fontSize:"13px",lineHeight:"24px"}}>
+
+      Nike Dri-FIT ADV TechKnit Ultra Men&#39;s Short-Sleeve Running Top
+
+              </h1>
+
+              <p className="font-normal text-gray-400"
+               style={{width:"85.53px",height:"120px",top:"-203px",left:"220px",position:"relative",
+                fontSize:"13px",lineHeight:"19.6px"}}>
+
+                  Qty 1
+              </p>
+
+              <p className="font-normal text-gray-400"
+               style={{width:"37px",height:"20px",top:"-304px",left:"220px",position:"relative",
+                fontSize:"13px",lineHeight:"19.6px"}}>
+
+                  Size L              
+                  </p>
+
+              <p className="font-normal text-gray-400"
+               style={{width:"66px",height:"20px",top:"-303px",left:"220px",position:"relative",
+                fontSize:"13px",lineHeight:"19.6px"}}>
+
+                  ₹ 3 895.00    
+              </p>
+
+
+            <div
+            style={{top:"-256px",position:"relative"}}>
+            <Image 
+              className=""
+               width={208} height={208} alt="image"
+              src="/shoe12.jpeg"/>
+            </div>
+              
+
+              <h1 className="font-normal"
+               style={{width:"85.53px",height:"120px",top:"-467px",left:"220px",position:"relative",
+                fontSize:"13px",lineHeight:"24px"}}>
+
+          Nike Air Max 97 SE Men&#39;s Shoes
+
+              </h1>
+
+              <p className="font-normal text-gray-400"
+               style={{width:"85.53px",height:"120px",top:"-510px",left:"220px",position:"relative",
+                fontSize:"13px",lineHeight:"19.6px"}}>
+
+                  Qty 1
+              </p>
+
+              <p className="font-normal text-gray-400"
+               style={{width:"37px",height:"20px",top:"-610px",left:"220px",position:"relative",
+                fontSize:"13px",lineHeight:"19.6px"}}>
+
+                  Size L              
+                  </p>
+
+              <p className="font-normal text-gray-400"
+               style={{width:"66px",height:"20px",top:"-610px",left:"220px",position:"relative",
+                fontSize:"13px",lineHeight:"19.6px"}}>
+
+                  ₹ 3 895.00    
+              </p>
+
+            </div>
+
 
           </section>
 
