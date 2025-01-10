@@ -93,10 +93,10 @@ const Nav: React.FC = () => {
               marginLeft: "340px",
             }}
           >
-            <Link href={"/"}>New & Featured</Link>
-            <Link href={"/"}>Men</Link>
-            <Link href={"/"}>Women</Link>
-            <Link href={"/"}>Kids</Link>
+            <Link href={"/Product"}>New & Featured</Link>
+            <Link href={"/Product"}>Men</Link>
+            <Link href={"/Product"}>Women</Link>
+            <Link href={"/Product"}>Kids</Link>
             <Link href={"/Product"}>Sale</Link>
             <Link href={"/"}>SNKRS</Link>
           </div>
